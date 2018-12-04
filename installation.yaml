@@ -1,6 +1,6 @@
 ---
 - name: Configure Hostname
-  hosts: 10.50.10.181 
+  hosts: all
 
   vars_prompt:
     - name: "IP"
