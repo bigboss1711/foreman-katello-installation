@@ -2,14 +2,14 @@
 - name: Configure Hostname
   hosts: all
 
-  vars_prompt:
-    - name: "IP"
-      prompt: "Enter Server's IP Address"
-      private: no
+#  vars_prompt:
+#    - name: "IP"
+#      prompt: "Enter Server's IP Address"
+#      private: no
 
-    - name: "host_name"
-      prompt: "Enter Your Host Name"
-      private: no
+#    - name: "host_name"
+#      prompt: "Enter Your Host Name"
+#      private: no
 
   tasks:
     - name: Change hostname
