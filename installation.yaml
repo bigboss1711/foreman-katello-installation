@@ -1,5 +1,6 @@
 ---
-- name: Configure Hostname
+- 
+# name: Configure Hostname
   hosts: all
 
 #  vars_prompt:
